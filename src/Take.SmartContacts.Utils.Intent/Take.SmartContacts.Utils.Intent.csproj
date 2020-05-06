@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>Take</Company>
+    <Authors>Take</Authors>
+    <Product>IntentAnalyzer</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="F23.StringSimilarity" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Recognizers.Text" Version="1.3.2" />
+    <PackageReference Include="Microsoft.Recognizers.Text.Number" Version="1.3.2" />
+  </ItemGroup>
+
+</Project>
